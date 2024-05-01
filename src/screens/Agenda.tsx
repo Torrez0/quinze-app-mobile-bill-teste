@@ -8,7 +8,6 @@ import DateInputAgendamento from '../componentes/DateInputAgendamento';
 import TimePicker from '../componentes/TimePicker';
 import { auth, db } from '../config/firebase';
 import { obterIdUsuarioLogado, solicitarAlteracaoAtendimento } from '../servicos/requisicoesFirebase';
-
 const Agenda = () => {
     const [selectedOption, setSelectedOption] = useState(null);
     const [selectedDate, setSelectedDate] = useState(null);

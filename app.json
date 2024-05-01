@@ -17,8 +17,12 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.corvusCore.appQuinze",
-      "useModularHeaders": true
+      "useModularHeaders": true,
+      "googleServicesFile": "../servicos/GoogleService-Info.plist",
+      "package": "com.corvusCore.appQuinze",
+      "bitcode": false
     },
+    
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -31,8 +35,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "e817cf64-7a89-46cd-a748-5aa5646410b4"
+        "projectId": "445658aa-17d0-48f8-add5-e6c94d9e25a5"
       }
-    }
+    },
+    "owner": "alan.torres55"
   }
 }
